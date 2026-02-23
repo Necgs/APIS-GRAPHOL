@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Libros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Virtual</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Agregar un nuevo libro</h2>
+            <form id="form-libro">
+                <input type="text" id="titulo" placeholder="Título del libro" required>
+                <input type="text" id="autor" placeholder="Autor" required>
+                <button type="submit">➕ Agregar</button>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <h2>Lista de Libros</h2>
+            <div id="lista-libros" class="grid-libros"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca Virtual © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
