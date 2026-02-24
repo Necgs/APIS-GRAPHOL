@@ -75,27 +75,40 @@ form button:hover {
     color: #666;
 }
 
-.libro-card button {
-    margin-top: 10px;
-    padding: 8px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: opacity 0.3s;
-}
-
-.btn-eliminar {
-    background: #e74c3c;
-    color: white;
+.acciones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .btn-modificar {
-    background: #f39c12;
+    background: #2ecc71; /* Verde */
     color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
 }
 
-.libro-card button:hover {
-    opacity: 0.8;
+.btn-modificar:hover {
+    background: #27ae60;
+    transform: scale(1.05);
+}
+
+.btn-eliminar {
+    background: #e74c3c; /* Rojo */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn-eliminar:hover {
+    background: #c0392b;
+    transform: scale(1.05);
 }
 
 footer {
